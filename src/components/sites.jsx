@@ -30,7 +30,7 @@ const Sites = () => {
                     </div>
                 </div>
                 <div className='rounded-xl max-w-[1400px] grid lg:grid-cols-2 gap-4 bg-black/70  lg:m-4'>
-                    
+
                     <div className='grid grid-cols-2 grid-rows-6  gap-2 h-[80vh]'>
 
                         <img className='rounded-2xl h-full p-2 w-full object-cover row-span-3' src="https://images.unsplash.com/photo-1517384161621-5773b87f4cd4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fGxpb25zJTIwaW4lMjBrZW55YXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="msa" />
@@ -42,10 +42,10 @@ const Sites = () => {
                         <img className='rounded-2xl h-full p-2 w-full object-cover row-span-2' src="https://images.pexels.com/photos/631292/pexels-photo-631292.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="msa" />
 
                         <img className='rounded-2xl h-full p-2 w-full object-cover ' src="https://plus.unsplash.com/premium_photo-1661957585543-7530d92e0d51?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjF8fENhcGUlMjBCdWZmYWxvJTIwaW4lMjBrZW55YXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="msa" />
-                        
+
                     </div>
                     <div className=' h-full '>
-                        <h6 className='md:text-2xl border-b p-2 font-bold text-orange-500'>The Big Five!</h6>
+                        <h6 className='md:text-2xl border-b p-2 font-bold text-yellow-300'>The Big Five!</h6>
                         <p className='p-2 text-white font-bold'>
                             Kenya's national parks, home to the iconic Big Five – lions, elephants, buffalos, leopards, and rhinoceros – are a testament to the country's remarkable biodiversity and commitment to conservation. The vast and varied landscapes of places like the Maasai Mara, Tsavo, Amboseli, and others, provide a spectacular stage for these incredible creatures.
 
@@ -81,7 +81,7 @@ const Sites = () => {
                         <img className='rounded-2xl h-full p-2 w-full object-cover ' src="https://th.bing.com/th/id/R.13d64e898d559110d8d0258166b5ebf8?rik=UOoEGVqdFyyaXQ&riu=http%3a%2f%2ffarm8.staticflickr.com%2f7190%2f6943701024_22bb4b750b_z.jpg&ehk=XenqOkoSG93RmvofUKZ6J3gMfibrUFr2yTeilHDJBJE%3d&risl=&pid=ImgRaw&r=0" alt="msa" />
 
                     </div>
-                    
+
                 </div>
                 <div className='rounded-xl max-w-[1400px] grid lg:grid-cols-2 gap-4 bg-pink-400  lg:m-4'>
 
@@ -99,7 +99,7 @@ const Sites = () => {
 
                     </div>
                     <div className=' h-full '>
-                        <h6 className='md:text-2xl border-b p-2 font-bold text-yellow-500'>Diverse Foods!</h6>
+                        <h6 className='md:text-2xl border-b p-2 font-bold text-blue-600'>Diverse Foods!</h6>
                         <p className='p-2 text-white font-bold'>
                             Kenya's culinary landscape is a delightful fusion of flavors, reflecting the country's diverse ethnic communities and cultural influences. From aromatic Swahili dishes along the coast to hearty meals in the highlands, Kenyan food offers a tantalizing journey for the taste buds.
 
@@ -110,7 +110,35 @@ const Sites = () => {
 
                     </div>
                 </div>
+                <div className='rounded-xl max-w-[1400px] grid lg:grid-cols-2 gap-4 bg-green-600  lg:m-4'>
+                    <div className=' h-full '>
+                        <h6 className='md:text-2xl border-b p-2 font-bold text-gray-800'>Scenic Sites!</h6>
+                        <p className='p-2 text-white font-bold'>
+                            Kenya's diverse and breathtaking landscapes offer a visual feast for travelers seeking natural wonders. From the world-famous Maasai Mara with its sweeping savannahs and majestic wildlife to the rugged beauty of Tsavo National Park, the scenic sites in Kenya are nothing short of spectacular. The Great Rift Valley's dramatic escarpments and serene lakes, such as Nakuru and Naivasha, paint a picture of tranquil beauty.
+
+                            Mount Kenya, Africa's second-highest peak, stands tall in the Central Highlands, while Amboseli National Park showcases stunning views of Mount Kilimanjaro. The Great Lakes of Turkana and Victoria, as well as the white sands of Diani Beach, add aquatic allure to the landscape.
+
+                            Kenya's diverse scenery extends to its vibrant cities, like Nairobi and Mombasa, offering a dynamic mix of urban and natural beauty. The landscapes are not only a testament to nature's artistry but also a reflection of the country's commitment to conservation and sustainable tourism. Exploring these scenic sites in Kenya is an invitation to immerse oneself in the stunning tapestry of the country's geography and culture, making it an unforgettable journey for travelers.
+                        </p>
+
+                    </div>
+                    <div className='grid grid-cols-2 grid-rows-6  gap-2 h-[80vh]'>
+
+                        <img className='rounded-2xl h-full p-2 w-full object-cover row-span-2' src="https://media.istockphoto.com/id/488324281/photo/cannon-sticking-out-of-san-antonio-fort-in-ancud-chile.jpg?s=612x612&w=0&k=20&c=FABSzkcjEg3cKhWEWdVxy-5e_5X-KrGwnP5EId7kLHo=" alt="msa" />
+
+                        <img className='rounded-2xl h-full p-2 w-full object-cover row-span-3' src="https://images.unsplash.com/photo-1586491157403-f3407cb8ff5b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTMzfHxzY2VuaWMlMjBrZW55YXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60" alt="msa" />
+
+                        <img className='rounded-2xl h-full p-2 w-full object-cover row-span-2' src="https://media.istockphoto.com/id/516636123/photo/mountains-with-orange-light.jpg?s=612x612&w=0&k=20&c=0hZeN8DC4D2lT9rZmrWrIr4r6WTb8n306qerIony1zE=" alt="msa" />
+
+                        <img className='rounded-2xl h-full p-2 w-full object-cover row-span-2 ' src="https://plus.unsplash.com/premium_photo-1661846340419-89bf27138124?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bGFrZSUyMG5ha3VydXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60" alt="msa" />
+
+                        <img className='rounded-2xl h-full p-2 w-full object-cover row-span-2 ' src="https://images.unsplash.com/photo-1595621161776-0a28fcd29abe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2FzdGxlcyUyMGluJTIwa2VueWF8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60" alt="msa" />
+
+                    </div>
+
+                </div>
             </div>
+
         </div>
     )
 }
