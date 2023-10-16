@@ -1,3 +1,4 @@
+import Footer from "./components/footer";
 import Home from "./components/home";
 import Hotels from "./components/hotels";
 import Navbar from "./components/navbar";
@@ -11,6 +12,7 @@ function App() {
       <Home/>
       <Sites/>
       <Hotels/>
+      <Footer/>
     </div>
   );
 }

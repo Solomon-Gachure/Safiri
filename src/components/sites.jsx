@@ -3,7 +3,7 @@ import React from 'react'
 const Sites = () => {
     return (
         <div className='max-w-[1400px]  '>
-            <div className='flex flex-col p-4'>
+            <div className='flex flex-col p-4 gap-4'>
                 <div className='flex justify-center items-center'>
                     <h3 className='pt-4 font-bold text-2xl md:text-4xl text-orange-500'>See Kenya through our eyes:</h3>
                 </div>
@@ -15,7 +15,7 @@ const Sites = () => {
                         </p>
 
                     </div>
-                    <div className='grid grid-cols-2 grid-rows-6  gap-2 h-[80vh]'>
+                    <div className='grid grid-cols-2 grid-rows-5  gap-2 h-[80vh]'>
 
                         <img className='rounded-2xl h-full p-2 w-full object-cover row-span-3' src="https://images.unsplash.com/photo-1535349838154-27b18aa98c2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bW9tYmFzYSUyMGJlYWNofGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" alt="msa" />
 
@@ -31,7 +31,7 @@ const Sites = () => {
                 </div>
                 <div className='rounded-xl max-w-[1400px] grid lg:grid-cols-2 gap-4 bg-black/70  lg:m-4'>
 
-                    <div className='grid grid-cols-2 grid-rows-6  gap-2 h-[80vh]'>
+                    <div className='grid grid-cols-2 grid-rows-5  gap-2 h-[80vh]'>
 
                         <img className='rounded-2xl h-full p-2 w-full object-cover row-span-3' src="https://images.unsplash.com/photo-1517384161621-5773b87f4cd4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fGxpb25zJTIwaW4lMjBrZW55YXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="msa" />
 
@@ -85,7 +85,7 @@ const Sites = () => {
                 </div>
                 <div className='rounded-xl max-w-[1400px] grid lg:grid-cols-2 gap-4 bg-pink-400  lg:m-4'>
 
-                    <div className='grid grid-cols-2 grid-rows-6  gap-2 h-[80vh]'>
+                    <div className='grid grid-cols-2 grid-rows-5  gap-2 h-[80vh]'>
 
                         <img className='rounded-2xl h-full p-2 w-full object-cover row-span-3' src="https://media.istockphoto.com/id/1490554593/photo/beef-stew-served-with-african-ugali-and-kienyeji-vegetables.webp?b=1&s=170667a&w=0&k=20&c=EDv00DPKEyaRgRaaAyJ3ZcDfm1yU45x5ryYRuDvW_V0=" alt="msa" />
 
@@ -122,7 +122,7 @@ const Sites = () => {
                         </p>
 
                     </div>
-                    <div className='grid grid-cols-2 grid-rows-6  gap-2 h-[80vh]'>
+                    <div className='grid grid-cols-2 grid-rows-5  gap-2 h-[80vh]'>
 
                         <img className='rounded-2xl h-full p-2 w-full object-cover row-span-2' src="https://media.istockphoto.com/id/488324281/photo/cannon-sticking-out-of-san-antonio-fort-in-ancud-chile.jpg?s=612x612&w=0&k=20&c=FABSzkcjEg3cKhWEWdVxy-5e_5X-KrGwnP5EId7kLHo=" alt="msa" />
 
