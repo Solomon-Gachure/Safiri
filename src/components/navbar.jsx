@@ -3,14 +3,19 @@ import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai'
 const Navbar = () => {
   const [nav, setNav] = useState(false)
   const handleClick = () => {
-    setNav(!nav)
+    setNav(!nav);
+    if (!nav) {
+      document.body.style.overflow = 'hidden'
+    } else {
+      document.body.style.overflow = 'scroll'
+    }
   }
 
   return (
 
     <div className='flex px-2 top-2 w-full items-center absolute text-black'>
       <div className='p-4'>
-        <AiOutlineMenu onClick={handleClick} className='relative cursor-pointer z-50 ' size={30} />
+        <AiOutlineMenu onClick={handleClick} className='relative cursor-pointer z-50' size={30} />
       </div>
       <div className={nav ? 'ease-in duration-300 top-0 left-0 fixed w-full h-full flex flex-col justify-center items-center z-10 bg-black/90' :'ease-in duration-300 hidden top-0 left-[-100%] fixed z-10 w-full h-screen'}>
         <div className='top-0 right-0  '>
