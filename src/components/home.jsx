@@ -2,7 +2,7 @@ import React from 'react'
 
 const Home = () => {
     return (
-        <div className='w-full h-screen  '>
+        <div name='Home' className='w-full h-screen  '>
             <img className='top-0 left-0  w-full h-full object-cover' src="https://images.unsplash.com/photo-1511282491208-d9b80e3deaee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTEzfHxtdCUyMGtlbnlhfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60" alt="254" />
             <div className='absolute top-0 bg-black/20 w-full h-screen' />
             <div className='absolute top-0 w-full h-full flex flex-col justify-center px-4 py-2'>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Hotels = () => {
   return (
-    <div className='py-4 mx-auto max-w-[1400px] px-2'>
+    <div class='hotel' className='py-4 mx-auto max-w-[1400px] px-2'>
         <div>
             <h3 className='text-2xl md:text-4xl flex justify-center font-bold text-orange-500'>Book A hotel:</h3>
               <p className='font-bold px-2 p-4'>Kenya offers a delightful blend of beautiful hotels that provide impeccable services, awe-inspiring sunrise and sunset views, and delicious cuisine, all at remarkably affordable prices.<br></br> From the heart of Nairobi to the serene coastal retreats, these hotels present a winning combination of comfort and budget-friendliness. You can wake up to breathtaking sunrises over lush landscapes or savor the magic of fiery sunsets by the ocean.<br></br> The menus showcase a diverse array of flavors, from traditional Kenyan dishes to international delights, catering to every palate. Kenya's hospitality industry has mastered the art of offering luxury without breaking the bank, ensuring that travelers can relish the country's natural beauty and warm hospitality without compromising their budgets.</p>

@@ -34,9 +34,9 @@ const Footer = () => {
                 <div className=''>
                     <h3 className='font-bold text-yellow-500'>Newsletter</h3>
                     <p className='font-bold text-white'>To get our monthly newsletter, subscribe as below</p>
-                    <form className='pt-2 '>
-                        <input className='p-2 rounded-xl' type="text" placeholder='Enter Email' />
-                        <button className='p-2 bg-red-500 text-white font-bold rounded-xl ml-1'>Subscribe</button>
+                    <form className='pt-2 flex flex-col gap-2 '>
+                        <input className='p-2 rounded-sm outline-none' type="text" placeholder='Enter Email' />
+                        <button className='p-2 bg-red-500 text-white font-bold rounded-lg w-[100px] flex items-center'>Subscribe</button>
                     </form>
                 </div>
             </div>

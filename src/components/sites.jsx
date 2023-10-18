@@ -2,7 +2,7 @@ import React from 'react'
 
 const Sites = () => {
     return (
-        <div className='max-w-[1400px]  '>
+        <div name='Site' className='max-w-[1400px]  '>
             <div className='flex flex-col p-4 gap-4'>
                 <div className='flex justify-center items-center'>
                     <h3 className='pt-4 font-bold text-2xl md:text-4xl text-orange-500'>See Kenya through our eyes:</h3>
