@@ -1,3 +1,4 @@
+import Contact from "./components/contact";
 import Footer from "./components/footer";
 import Home from "./components/home";
 import Hotels from "./components/hotels";
@@ -12,7 +13,9 @@ function App() {
       <Home/>
       <Sites/>
       <Hotels/>
+      <Contact />
       <Footer/>
+      
     </div>
   );
 }

@@ -68,7 +68,7 @@ const Sites = () => {
                         </p>
 
                     </div>
-                    <div className='grid grid-cols-2 grid-rows-6  gap-2 h-[80vh]'>
+                    <div className='grid grid-cols-2 grid-rows-5  gap-2 h-[80vh]'>
 
                         <img className='rounded-2xl h-full p-2 w-full object-cover row-span-3' src="https://images.pexels.com/photos/4152126/pexels-photo-4152126.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="msa" />
 
